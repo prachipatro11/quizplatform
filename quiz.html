@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Create Quiz</h1>
+
+        <!-- Quiz Title -->
+        <div class="form-card">
+
+            <label for="quizHeading">Quiz Heading</label>
+            <input
+                type="text"
+                id="quizHeading"
+                placeholder="Enter Quiz Heading"
+            >
+
+        </div>
+
+        <!-- Question Form -->
+        <div class="form-card">
+
+            <h2>Add Question</h2>
+
+            <label for="question">
+                Question
+            </label>
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Enter Question"
+            >
+
+            <label for="optionA">
+                Option A
+            </label>
+
+            <input
+                type="text"
+                id="optionA"
+                placeholder="Enter Option A"
+            >
+
+            <label for="optionB">
+                Option B
+            </label>
+
+            <input
+                type="text"
+                id="optionB"
+                placeholder="Enter Option B"
+            >
+
+            <label for="optionC">
+                Option C
+            </label>
+
+            <input
+                type="text"
+                id="optionC"
+                placeholder="Enter Option C"
+            >
+
+            <label for="optionD">
+                Option D
+            </label>
+
+            <input
+                type="text"
+                id="optionD"
+                placeholder="Enter Option D"
+            >
+
+            <!-- Correct Answer -->
+
+            <label for="correctAnswer">
+                Correct Answer
+            </label>
+
+            <select id="correctAnswer">
+                <option value="">Select Correct Answer</option>
+                <option value="A">Option A</option>
+                <option value="B">Option B</option>
+                <option value="C">Option C</option>
+                <option value="D">Option D</option>
+            </select>
+
+            <br><br>
+
+            <!-- Add Question Button -->
+
+            <button id="addQuestionBtn">
+                Add Question
+            </button>
+
+        </div>
+
+        <!-- Show Added Questions -->
+
+        <div class="form-card">
+
+            <h2>Added Questions</h2>
+
+            <div id="questionList">
+                <!-- Questions will appear here -->
+            </div>
+
+        </div>
+
+        <!-- Save Quiz -->
+        
+        <div class="form-card">
+
+            <button id="saveQuizBtn">
+                Save Quiz
+            </button>
+
+            <p id="quizMessage"></p>
+            <div id="quizLink"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

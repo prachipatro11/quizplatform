@@ -1,0 +1,290 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* =========================
+   Main Container
+========================= */
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 25px;
+}
+
+.form-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.form-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Inputs */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Focus Effect */
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+
+    background: #1877f2;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0f5ed7;
+}
+
+/* Added Questions */
+#questionList {
+    margin-top: 10px;
+}
+
+.question-item {
+    background: #f8f9fa;
+    border-left: 4px solid #1877f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Messages */
+#quizMessage {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Success Message */
+.success {
+    color: green;
+}
+
+/* Error Message */
+.error {
+    color: red;
+}
+
+/* =========================
+   Main Heading
+========================= */
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* =========================
+   Responsive Design
+========================= */
+
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    padding: 20px;
+}
+
+/* Form Container */
+.form-card {
+    width: 100%;
+    max-width: 400px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+    color: #444;
+}
+
+.input-group input {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+/* Input Focus */
+.input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Button */
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #007bff;
+
+    color: white;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Validation Messages */
+#registerMessage,
+#loginMessage {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Link Text */
+.link-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-text a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .form-card {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+

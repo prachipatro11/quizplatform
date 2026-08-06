@@ -1,0 +1,87 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    padding: 30px;
+}
+
+/* Heading */
+h2{
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+/* Sort Dropdown */
+#sortBy{
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Table */
+#resultTable{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+#resultTable th{
+    background-color: #2563eb;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+/* Table Data */
+#resultTable td{
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Alternate Rows */
+#resultTable tbody tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+/* Hover Effect */
+#resultTable tbody tr:hover{
+    background-color: #eef4ff;
+}
+
+/* Responsive Table */
+@media (max-width: 768px){
+
+    body{
+        padding: 15px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    #resultTable{
+        font-size: 14px;
+    }
+
+    #resultTable th,
+    #resultTable td{
+        padding: 8px;
+    }
+}

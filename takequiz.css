@@ -1,0 +1,95 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+    padding: 40px 20px;
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+/* Quiz Title */
+#quizTitle {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2563eb;
+    margin-bottom: 30px;
+}
+
+/* Question Card */
+.question-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #2563eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Question Text */
+.question-card p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* Options */
+.question-card label {
+    display: block;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #dbeafe;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.question-card label:hover {
+    background-color: #eff6ff;
+    border-color: #2563eb;
+}
+
+/* Radio Button */
+.question-card input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #2563eb;
+}
+
+/* Submit Button */
+#submitQuiz {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#submitQuiz:hover {
+    background: #1d4ed8;
+}
+
+/* Result */
+#result {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #16a34a;
+}
