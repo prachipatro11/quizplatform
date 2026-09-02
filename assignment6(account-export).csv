@@ -1,0 +1,11 @@
+Id,Name,Location__Latitude__s,Location__Longitude__s,City__c
+001fj00001UEU1KAAX,Edge Communications,21,11.2,Pune;Banglore
+001fj00001UEU1LAAX,Burlington Textiles Corp of America,21,21,Pune;Mumbai
+001fj00001jCDANAA4,Client Account,32.2,11.2,Pune;Mumbai
+001fj00001jCG1rAAG,Testing Autolaunched,21,22,Mumbai;Banglore
+001fj00001jDzOpAAK,Testing validation,11,12,Pune;Banglore
+001fj00001jGvEQAA0,Test OPP Count,11,22,Mumbai;Hyderabad
+001fj00001jJmxlAAC,Test count,32.2,11.2,Pune;Mumbai;Hyderabad
+001fj00001jKIb3AAG,Test Open Opp,33,32,Mumbai;Hyderabad;Banglore
+001fj00001kywKfAAI,Test data1,21,22,Mumbai;Hyderabad
+001fj00001lToPGAA0,Sales user,11,12,Pune;Mumbai;Banglore
